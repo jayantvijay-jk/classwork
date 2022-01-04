@@ -46,17 +46,16 @@ class Exam:public Student{
 };
 int main(){
 	int i;
-	Student s[3];
 	Exam e[3];
 	
 	for(i=1;i<4;i++){
 	 
-		s[i].inputstudent();
+		e[i].inputstudent();
 		e[i].inputmarks();
 	}
 	for(i=1;i<4;i++){
 	     
-		s[i].displaystudent();
+		e[i].displaystudent();
 		cout<<"Marks of student"<<i<<" = "<<endl;
 		e[i].displayresult();
 	}
